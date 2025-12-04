@@ -1,4 +1,4 @@
-# Résumé des Méthodes JavaScript (1 à 20)
+# Résumé des Méthodes JavaScript
 
 Ce dépôt contient un résumé détaillé des principales méthodes JavaScript utilisées pour manipuler les tableaux, les strings et les objets. Chaque méthode est décrite avec son rôle, ses arguments et sa valeur de retour.
 
