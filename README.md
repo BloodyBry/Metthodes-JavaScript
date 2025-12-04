@@ -5,7 +5,7 @@ Ce dépôt contient un résumé détaillé des principales méthodes JavaScript 
 ---
 
 ## filter()
-**Définition :** Crée un nouveau tableau contenant seulement les éléments qui passent une condition.  
+**Définition :** Retourne un nouveau tableau avec seulement les éléments qui passent une condition. 
 **Arguments :** callback(element, index, array)  
 **Retour :** Nouveau tableau filtré  
 ```javascript
@@ -36,7 +36,7 @@ const posOdd = nums.findIndex(n => n % 2 !== 0);
 
 ## indexOf()
 **Définition :** Cherche la position d’une valeur dans un tableau ou une string.  
-**Arguments :** valeur, indexDeDépart (optionnel)  
+**Arguments :** valeur 
 **Retour :** Index ou -1  
 ```javascript
 const colors = ["red", "green", "blue"];
@@ -46,8 +46,8 @@ colors.indexOf("blue");
 
 ## sort()
 **Définition :** Trie les éléments d’un tableau selon un ordre spécifique.  
-**Arguments :** Fonction de comparaison (optionnelle)  
-**Retour :** Tableau trié (modifié)  
+**Arguments :** Fonction de comparaison 
+**Retour :** Tableau trié  
 ```javascript
 const names = ["Sami", "Adnane", "Rayhane"];
 names.sort();
@@ -56,7 +56,7 @@ names.sort();
 
 ## reduce()
 **Définition :** Transforme un tableau en une valeur unique en cumulant ses éléments.  
-**Arguments :** callback(accumulateur, element, index, array), valeurInitiale  
+**Arguments :** callback(accumulateur, element) 
 **Retour :** Valeur finale  
 ```javascript
 const nums = [2, 3, 4];
@@ -76,7 +76,7 @@ const newWords = words.map(w => w + "!");
 
 ## includes()
 **Définition :** Vérifie si un tableau ou une string contient une valeur spécifique.  
-**Arguments :** valeur, indexDeDépart (optionnel)  
+**Arguments :** valeur  
 **Retour :** true / false  
 ```javascript
 const langs = ["arabic", "french", "spanish"];
@@ -190,7 +190,7 @@ words.every(w => w === w.toLowerCase());
 
 ## splice()
 **Définition :** Modifie un tableau en ajoutant, supprimant ou remplaçant des éléments.  
-**Arguments :** indexDépart, nbASupprimer, élémentsAAjouter (optionnel)  
+**Arguments :** index, nombreASupprimer, éléments 
 **Retour :** Tableau des éléments supprimés
 ```javascript
 const arr = ["a", "c", "d"];
